@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 
 import lightgbm as lgb
 
-paths = r'D:\ML'
+paths = r'D:\ML'#更改路径即可
 train_data = pd.read_csv(f'{paths}/train.csv')
 test_data = pd.read_csv(f'{paths}/test.csv')
 submit_df = pd.read_csv(f'{paths}/submit_example.csv')
